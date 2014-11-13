@@ -1,4 +1,4 @@
-build_image: shippableimages/ubuntu1404_nodejs
+# build_image: shippableimages/ubuntu1404_nodejs
 
 # language setting
 language: node_js
@@ -11,21 +11,20 @@ node_js:
 
 env:
 - XUNIT_FILE=shippable/testresults/result.xml
-- NODE_ENV=development
+# - NODE_ENV=development
 
-before_install:
-  - npm install -g grunt
+#before_install:
+#  - npm install -g grunt
 
-install:
-  - npm install
+#install:
+#  - npm install
 
 before_script:
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
 
-
 script:
-  - npm test
+  - grunt
 
 # Tell istanbul to generate a coverage report
 after_script:
