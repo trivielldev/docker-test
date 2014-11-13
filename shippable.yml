@@ -23,7 +23,7 @@ before_script:
 
 script:
   - ls
-  - cd src && pwd && grunt
+  - cd src && npm test
 
 # Tell istanbul to generate a coverage report
 after_script:
