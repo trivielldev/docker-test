@@ -13,7 +13,7 @@ env:
 - XUNIT_FILE=shippable/testresults/result.xml
 
 before_install:
-  -npm install -g grunt-cli
+  - npm install -g grunt-cli
 
 install:
   - npm install src/
