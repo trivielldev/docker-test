@@ -11,6 +11,10 @@ node_js:
 
 env:
 - XUNIT_FILE=shippable/testresults/result.xml
+- NODE_ENV=development
+
+before_install:
+  - npm install -g grunt
 
 install:
   - npm install

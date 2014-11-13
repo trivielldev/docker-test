@@ -4,7 +4,7 @@
 	"version": "0.0.1",
 	"main": "app.js",
 	"scripts": {
-		"test": "./node_modules/.bin/grunt"
+		"test": "grunt"
 		},
 	"description": "This is a test of a node.js app in Docker",
 	"author": "Simon Litlehamar",
