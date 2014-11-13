@@ -12,9 +12,11 @@ node_js:
 env:
 - XUNIT_FILE=shippable/testresults/result.xml
 
+before_install:
+  -npm install -g grunt-cli
+
 install:
   - npm install src/
-  - npm install -g grunt
 
 before_script:
   - mkdir -p shippable/testresults
