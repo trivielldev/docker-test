@@ -1,4 +1,4 @@
-build_image: shippableimages/ubuntu1404_nodejs
+#build_image: shippableimages/ubuntu1404_nodejs
 
 # language setting
 language: node_js
