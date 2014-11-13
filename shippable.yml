@@ -11,7 +11,7 @@ env:
 - XUNIT_FILE=shippable/testresults/result.xml
 
 install:
-  - cd src && npm install
+  - npm install src
 
 before_script:
   - mkdir -p shippable/testresults
