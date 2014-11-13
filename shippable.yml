@@ -21,8 +21,8 @@ before_script:
 
 
 script:
-  - tree
-  - cd src && grunt
+  - ls
+  - cd src && pwd && grunt
 
 # Tell istanbul to generate a coverage report
 after_script:
