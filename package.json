@@ -1,0 +1,23 @@
+{
+	"name": "docker-test",
+	"private": true,
+	"version": "0.0.1",
+	"main": "app.js",
+	"scripts": {
+		"test": "grunt"
+		},
+	"description": "This is a test of a node.js app in Docker",
+	"author": "Simon Litlehamar",
+	"dependencies": {
+		"express": "3.2.4",
+		"should": "^4.0.1",
+		"istanbul": "^0.2.9",
+	    "chai": "^1.9.1",
+	    "grunt": "^0.4.5",
+	    "grunt-express-server": "^0.4.17",
+	    "grunt-simple-mocha": "^0.4.0",
+	    "superagent": "^0.18.0",
+	    "mocha": "^1.18.2",
+	    "xunit-file": "0.0.5"
+	}
+}
